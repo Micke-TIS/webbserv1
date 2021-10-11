@@ -1,7 +1,6 @@
 <?php
 // Some includes for header and connection to database
-  include_once("includes/header.php");
-  include_once("includes/config.php");
+  include_once("/header.php");
 ?>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
