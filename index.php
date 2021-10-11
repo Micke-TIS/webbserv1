@@ -40,7 +40,7 @@
                         <div class="hero-content">
                             <div class="hero-text">
                                 <p>This is</p>
-                                <h1>Android Robot</h1>
+                                <h1><?php echo $title; ?></h1>
                                 <h2></h2>
                                 <div class="typed-text">Cool Features, Coffee Drinker, Awesome As F***, Shit Happens, Learn HTML Kids</div>
                             </div>
