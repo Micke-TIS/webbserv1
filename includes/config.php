@@ -18,4 +18,14 @@ while($row = mysqli_fetch_assoc($query))
   $title = $row['title'];
   $content = $row['content'];
 }
+
+
+//Select specific columns from DB
+$query = mysqli_query($conn, "SELECT * FROM home");
+while($row = mysqli_fetch_assoc($query))
+{
+  $hero_title = $row['hero_title'];
+}
+ ?>
+
  ?>
